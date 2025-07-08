@@ -3,7 +3,7 @@ name: Build and Deploy Next.js App with Docker and Nginx
 on:
   push:
     branches:
-      - main 
+      - Development
 
 env:
   IMAGE_NAME: nextjs-app
