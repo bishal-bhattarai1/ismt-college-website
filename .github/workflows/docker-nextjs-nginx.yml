@@ -42,7 +42,7 @@ jobs:
       - name: 🚀 Deploy to Remote Server via SSH (Password Auth)
         uses: appleboy/ssh-action@v1.0.0
         with:
-          host: ${{ secrets.SERVER_HOST
+          host: 20.57.88.36
           username: bbishal
           password: bishal@12345
           port: 22
